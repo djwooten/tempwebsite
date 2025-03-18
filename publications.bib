@@ -69,13 +69,117 @@ year = {2017}
  title = {Charting the Fragmented Landscape of Drug Synergy},
  year = {2020}
 }
-@article{wooten2020synergy,
- abstract = {Combinations of multiple pharmacological agents can achieve a substantial benefit over treatment with single agents alone. Combinations that achieve “more than the sum of their parts” are called synergistic. There have been many proposed frameworks to understand and quantify drug combination synergy with different assumptions and domains of applicability. We introduce here synergy, a Python library that (i) implements a broad array of popular synergy models, (ii) provides tools for evaluating confidence intervals and conducting power analysis, and (iii) provides standardized tools to analyze and visualize drug combinations and their synergies and antagonisms.},
- author = {Wooten, David J and Albert, R{\'e}ka},
- doi = {10.1093/bioinformatics/btaa826},
- issn = {14602059},
- journal = {Bioinformatics},
- keywords = {synergy,drug synergy,Loewe Additivity,Bliss Independence,MuSyC,python,combination index,braid,zip,schindler},
- title = {synergy-A Python library for calculating, analyzing, and visualizing drug combination synergy},
- year = {2020}
+@Article{jpm11030193,
+AUTHOR = {Wooten, David J. and Gebru, Melat and Wang, Hong-Gang and Albert, Réka},
+TITLE = {Data-Driven Math Model of FLT3-ITD Acute Myeloid Leukemia Reveals Potential Therapeutic Targets},
+JOURNAL = {Journal of Personalized Medicine},
+VOLUME = {11},
+YEAR = {2021},
+NUMBER = {3},
+ARTICLE-NUMBER = {193},
+URL = {https://www.mdpi.com/2075-4426/11/3/193},
+PubMedID = {33799721},
+ISSN = {2075-4426},
+ABSTRACT = {FLT3-mutant acute myeloid leukemia (AML) is an aggressive form of leukemia with poor prognosis. Treatment with FLT3 inhibitors frequently produces a clinical response, but the disease nevertheless often recurs. Recent studies have revealed system-wide gene expression changes in FLT3-mutant AML cell lines in response to drug treatment. Here we sought a systems-level understanding of how these cells mediate these drug-induced changes. Using RNAseq data from AML cells with an internal tandem duplication FLT3 mutation (FLT3-ITD) under six drug treatment conditions including quizartinib and dexamethasone, we identified seven distinct gene programs representing diverse biological processes involved in AML drug-induced changes. Based on the literature knowledge about genes from these modules, along with public gene regulatory network databases, we constructed a network of FLT3-ITD AML. Applying the BooleaBayes algorithm to this network and the RNAseq data, we created a probabilistic, data-driven dynamical model of acquired resistance to these drugs. Analysis of this model reveals several interventions that may disrupt targeted parts of the system-wide drug response. We anticipate co-targeting these points may result in synergistic treatments that can overcome resistance and prevent eventual recurrence.},
+DOI = {10.3390/jpm11030193}
+}
+@article{10.1371/journal.pcbi.1008690,
+    doi = {10.1371/journal.pcbi.1008690},
+    author = {Wooten, David J. AND Zañudo, Jorge Gómez Tejeda AND Murrugarra, David AND Perry, Austin M. AND Dongari-Bagtzoglou, Anna AND Laubenbacher, Reinhard AND Nobile, Clarissa J. AND Albert, Réka},
+    journal = {PLOS Computational Biology},
+    publisher = {Public Library of Science},
+    title = {Mathematical modeling of the Candida albicans yeast to hyphal transition reveals novel control strategies},
+    year = {2021},
+    month = {03},
+    volume = {17},
+    url = {https://doi.org/10.1371/journal.pcbi.1008690},
+    pages = {1-28},
+    abstract = {Candida albicans, an opportunistic fungal pathogen, is a significant cause of human infections, particularly in immunocompromised individuals. Phenotypic plasticity between two morphological phenotypes, yeast and hyphae, is a key mechanism by which C. albicans can thrive in many microenvironments and cause disease in the host. Understanding the decision points and key driver genes controlling this important transition and how these genes respond to different environmental signals is critical to understanding how C. albicans causes infections in the host. Here we build and analyze a Boolean dynamical model of the C. albicans yeast to hyphal transition, integrating multiple environmental factors and regulatory mechanisms. We validate the model by a systematic comparison to prior experiments, which led to agreement in 17 out of 22 cases. The discrepancies motivate alternative hypotheses that are testable by follow-up experiments. Analysis of this model revealed two time-constrained windows of opportunity that must be met for the complete transition from the yeast to hyphal phenotype, as well as control strategies that can robustly prevent this transition. We experimentally validate two of these control predictions in C. albicans strains lacking the transcription factor UME6 and the histone deacetylase HDA1, respectively. This model will serve as a strong base from which to develop a systems biology understanding of C. albicans morphogenesis.},
+    number = {3},
+
+}
+@article{10.1093/bioinformatics/btaa826,
+    author = {Wooten, David J and Albert, Réka},
+    title = {synergy: a Python library for calculating, analyzing and visualizing drug combination synergy},
+    journal = {Bioinformatics},
+    volume = {37},
+    number = {10},
+    pages = {1473-1474},
+    year = {2020},
+    month = {09},
+    abstract = {Combinations of multiple pharmacological agents can achieve a substantial benefit over treatment with single agents alone. Combinations that achieve ‘more than the sum of their parts’ are called synergistic. There have been many proposed frameworks to understand and quantify drug combination synergy with different assumptions and domains of applicability. We introduce here synergy, a Python library that (i) implements a broad array of popular synergy models, (ii) provides tools for evaluating confidence intervals and conducting power analysis and (iii) provides standardized tools to analyze and visualize drug combinations and their synergies and antagonisms.synergy is available on all operating systems for Python \&gt;=3.5. It is freely available from https://pypi.org/project/synergy, and its source code is available at https://github.com/djwooten/synergy. This software is released under the GNU General Public License, version 3.0 or later.Supplementary data are available at Bioinformatics online.},
+    issn = {1367-4803},
+    doi = {10.1093/bioinformatics/btaa826},
+    url = {https://doi.org/10.1093/bioinformatics/btaa826},
+    eprint = {https://academic.oup.com/bioinformatics/article-pdf/37/10/1473/50360697/btaa826.pdf},
+}
+﻿@Article{Wooten2021,
+author={Wooten, David J.
+and Meyer, Christian T.
+and Lubbock, Alexander L. R.
+and Quaranta, Vito
+and Lopez, Carlos F.},
+title={MuSyC is a consensus framework that unifies multi-drug synergy metrics for combinatorial drug discovery},
+journal={Nature Communications},
+year={2021},
+month={Jul},
+day={29},
+volume={12},
+number={1},
+pages={4607},
+abstract={Drug combination discovery depends on reliable synergy metrics but no consensus exists on the correct synergy criterion to characterize combined interactions. The fragmented state of the field confounds analysis, impedes reproducibility, and delays clinical translation of potential combination treatments. Here we present a mass-action based formalism to quantify synergy. With this formalism, we clarify the relationship between the dominant drug synergy principles, and present a mapping of commonly used frameworks onto a unified synergy landscape. From this, we show how biases emerge due to intrinsic assumptions which hinder their broad applicability and impact the interpretation of synergy in discovery efforts. Specifically, we describe how traditional metrics mask consequential synergistic interactions, and contain biases dependent on the Hill-slope and maximal effect of single-drugs. We show how these biases systematically impact synergy classification in large combination screens, potentially misleading discovery efforts. Thus the proposed formalism can provide a consistent, unbiased interpretation of drug synergy, and accelerate the translatability of synergy studies.},
+issn={2041-1723},
+doi={10.1038/s41467-021-24789-z},
+url={https://doi.org/10.1038/s41467-021-24789-z}
+}
+@Article{biomedicines10010149,
+AUTHOR = {Wooten, David J. and Sinha, Indu and Sinha, Raghu},
+TITLE = {Selenium Induces Pancreatic Cancer Cell Death Alone and in Combination with Gemcitabine},
+JOURNAL = {Biomedicines},
+VOLUME = {10},
+YEAR = {2022},
+NUMBER = {1},
+ARTICLE-NUMBER = {149},
+URL = {https://www.mdpi.com/2227-9059/10/1/149},
+PubMedID = {35052828},
+ISSN = {2227-9059},
+ABSTRACT = {Survival rate for pancreatic cancer remains poor and newer treatments are urgently required. Selenium, an essential trace element, offers protection against several cancer types and has not been explored much against pancreatic cancer specifically in combination with known chemotherapeutic agents. The present study was designed to investigate selenium and Gemcitabine at varying doses alone and in combination in established pancreatic cancer cell lines growing in 2D as well as 3D platforms. Comparison of multi-dimensional synergy of combinations’ (MuSyc) model and highest single agent (HSA) model provided quantitative insights into how much better the combination performed than either compound tested alone in a 2D versus 3D growth of pancreatic cancer cell lines. The outcomes of the study further showed promise in combining selenium and Gemcitabine when evaluated for apoptosis, proliferation, and ENT1 protein expression, specifically in BxPC-3 pancreatic cancer cells in vitro.},
+DOI = {10.3390/biomedicines10010149}
+}
+﻿@Article{Garcia-Murillas2025,
+author={Garcia-Murillas, Isaac
+and Cutts, Rosalind J.
+and Walsh-Crestani, Giselle
+and Phillips, Edward
+and Hrebien, Sarah
+and Dunne, Kathryn
+and Sidhu, Kally
+and Daber, Robert
+and Hubert, Benjamin
+and Graybill, Chiharu
+and DeFord, Peter M.
+and Wooten, David J.
+and Zhao, Jianhua
+and Ellsworth, Rachel E.
+and Johnston, Stephen R. D.
+and Ring, Alistair
+and Russell, Simon
+and Evans, Abigail
+and Skene, Anthony
+and Wheatley, Duncan
+and Smith, Ian E.
+and Korn, W. Michael
+and Turner, Nicholas C.},
+title={Longitudinal monitoring of circulating tumor DNA to detect relapse early and predict outcome in early breast cancer},
+journal={Breast Cancer Research and Treatment},
+year={2025},
+month={Feb},
+day={01},
+volume={209},
+number={3},
+pages={493-502},
+abstract={Detection of molecular residual disease (MRD) allows for the identification of breast cancer patients at high-risk of recurrence, with the potential that early initiation of treatment at early stages of relapse could improve patient outcomes. The Invitae Personalized Cancer Monitoring{\texttrademark} assay (PCM) is a newly developed next-generation sequencing approach that utilizes up to 50 patient-specific, tumor-informed DNA variants, to detect circulating tumor DNA (ctDNA). The ability of the PCM assay to detect MRD before clinical relapse was evaluated.},
+issn={1573-7217},
+doi={10.1007/s10549-024-07508-2},
+url={https://doi.org/10.1007/s10549-024-07508-2}
 }

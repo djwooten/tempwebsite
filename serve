@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# If this is your first time serving, then I recommend running
+# >>> docker exec -it <HASH> /bin/sh
+# to enter the container then within the container running
+# >>> hugo mod vendor
+# to cache the module files in a directory named `_vendor`
+
+# Run the server
+docker run --rm -it -v $(pwd):/src -p 1313:1313 hugomods/hugo:exts server

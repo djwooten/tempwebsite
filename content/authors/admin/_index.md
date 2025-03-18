@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Dr. David J Wooten
+title: David J Wooten
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -158,4 +158,4 @@ awards:
 
 ## About Me
 
-David Wooten is an Associate Director of Onoclogy Bioinformatics at LabCrop. His research interests include personalized medicine, complex systems biology, and PBPKPD / systems pharmacology.
+David is an Associate Director of Onoclogy Bioinformatics at LabCrop. His research interests include personalized medicine, complex systems biology, and PBPK/PD / systems pharmacology.
