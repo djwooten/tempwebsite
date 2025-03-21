@@ -1,24 +1,24 @@
 ---
-title: A Consensus Framework Unifies Multi-Drug Synergy Metrics
+title: Selenium Induces Pancreatic Cancer Cell Death Alone and in Combination with
+  Gemcitabine
 
 # Authors
 # A YAML list of author names
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- David J Wooten
-- Christian T Meyer
-- Vito Quaranta
-- Carlos F Lopez
+- David J. Wooten
+- Indu Sinha
+- Raghu Sinha
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
 author_notes: []
 
-date: '2019-01-01'
+date: '2022-01-01'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2025-03-21T01:22:47.321744Z'
+publishDate: '2025-03-21T01:22:47.401615Z'
 
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
@@ -26,27 +26,23 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*bioRxiv*'
+publication: '*Biomedicines*'
 publication_short: ''
 
-doi: 10.1101/683433
+doi: 10.3390/biomedicines10010149
 
-abstract: Drug combination discovery depends on reliable synergy metrics; however,
-  no consensus exists on the appropriate synergy model to prioritize lead candidates.
-  The fragmented state of the field confounds analysis, reproducibility, and clinical
-  translation of combinations. Here we present a mass-action based formalism to accurately
-  measure the synergy of drug combinations. In this work, we clarify the relationship
-  between the dominant drug synergy principles and show how biases emerge due to intrinsic
-  assumptions which hinder their broad applicability. We further present a mapping
-  of commonly used frameworks onto a unified synergy landscape, which identifies fundamental
-  issues impacting the interpretation of synergy in discovery efforts. Specifically,
-  we infer how traditional metrics mask consequential synergistic interactions, and
-  contain biases dependent on the Hill-slope and maximal effect of single-drugs. We
-  show how these biases systematically impact the classification of synergy in large
-  combination screens misleading discovery efforts. The proposed approach has potential
-  to accelerate the translatability and reproducibility of drug-synergy studies, by
-  bridging the gap between the curative potential of drug mixtures and the complexity
-  in their study.
+abstract: Survival rate for pancreatic cancer remains poor and newer treatments are
+  urgently required. Selenium, an essential trace element, offers protection against
+  several cancer types and has not been explored much against pancreatic cancer specifically
+  in combination with known chemotherapeutic agents. The present study was designed
+  to investigate selenium and Gemcitabine at varying doses alone and in combination
+  in established pancreatic cancer cell lines growing in 2D as well as 3D platforms.
+  Comparison of multi-dimensional synergy of combinations’ (MuSyc) model and highest
+  single agent (HSA) model provided quantitative insights into how much better the
+  combination performed than either compound tested alone in a 2D versus 3D growth
+  of pancreatic cancer cell lines. The outcomes of the study further showed promise
+  in combining selenium and Gemcitabine when evaluated for apoptosis, proliferation,
+  and ENT1 protein expression, specifically in BxPC-3 pancreatic cancer cells in vitro.
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -86,7 +82,7 @@ image:
 projects: []
 links:
 - name: URL
-  url: https://www.biorxiv.org/content/early/2019/06/27/683433
+  url: https://www.mdpi.com/2227-9059/10/1/149
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

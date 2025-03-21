@@ -1,24 +1,26 @@
 ---
-title: A Consensus Framework Unifies Multi-Drug Synergy Metrics
+title: MuSyC is a consensus framework that unifies multi-drug synergy metrics for
+  combinatorial drug discovery
 
 # Authors
 # A YAML list of author names
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- David J Wooten
-- Christian T Meyer
+- David J. Wooten
+- Christian T. Meyer
+- Alexander L. R. Lubbock
 - Vito Quaranta
-- Carlos F Lopez
+- Carlos F. Lopez
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
 author_notes: []
 
-date: '2019-01-01'
+date: '2021-07-01'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2025-03-21T01:22:47.321744Z'
+publishDate: '2025-03-21T01:22:47.394966Z'
 
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
@@ -26,27 +28,26 @@ publication_types:
 - article-journal
 
 # Publication name and optional abbreviated publication name.
-publication: '*bioRxiv*'
+publication: '*Nature Communications*'
 publication_short: ''
 
-doi: 10.1101/683433
+doi: 10.1038/s41467-021-24789-z
 
-abstract: Drug combination discovery depends on reliable synergy metrics; however,
-  no consensus exists on the appropriate synergy model to prioritize lead candidates.
-  The fragmented state of the field confounds analysis, reproducibility, and clinical
-  translation of combinations. Here we present a mass-action based formalism to accurately
-  measure the synergy of drug combinations. In this work, we clarify the relationship
-  between the dominant drug synergy principles and show how biases emerge due to intrinsic
-  assumptions which hinder their broad applicability. We further present a mapping
-  of commonly used frameworks onto a unified synergy landscape, which identifies fundamental
-  issues impacting the interpretation of synergy in discovery efforts. Specifically,
-  we infer how traditional metrics mask consequential synergistic interactions, and
-  contain biases dependent on the Hill-slope and maximal effect of single-drugs. We
-  show how these biases systematically impact the classification of synergy in large
-  combination screens misleading discovery efforts. The proposed approach has potential
-  to accelerate the translatability and reproducibility of drug-synergy studies, by
-  bridging the gap between the curative potential of drug mixtures and the complexity
-  in their study.
+abstract: Drug combination discovery depends on reliable synergy metrics but no consensus
+  exists on the correct synergy criterion to characterize combined interactions. The
+  fragmented state of the field confounds analysis, impedes reproducibility, and delays
+  clinical translation of potential combination treatments. Here we present a mass-action
+  based formalism to quantify synergy. With this formalism, we clarify the relationship
+  between the dominant drug synergy principles, and present a mapping of commonly
+  used frameworks onto a unified synergy landscape. From this, we show how biases
+  emerge due to intrinsic assumptions which hinder their broad applicability and impact
+  the interpretation of synergy in discovery efforts. Specifically, we describe how
+  traditional metrics mask consequential synergistic interactions, and contain biases
+  dependent on the Hill-slope and maximal effect of single-drugs. We show how these
+  biases systematically impact synergy classification in large combination screens,
+  potentially misleading discovery efforts. Thus the proposed formalism can provide
+  a consistent, unbiased interpretation of drug synergy, and accelerate the translatability
+  of synergy studies.
 
 # Summary. An optional shortened abstract.
 summary: ''
@@ -86,7 +87,7 @@ image:
 projects: []
 links:
 - name: URL
-  url: https://www.biorxiv.org/content/early/2019/06/27/683433
+  url: https://doi.org/10.1038/s41467-021-24789-z
 ---
 
 Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
